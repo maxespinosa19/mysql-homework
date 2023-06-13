@@ -14,4 +14,5 @@ CREATE TABLE movies (
     producer VARCHAR(100),
     budget INT(30),
     
+    created_at DATETIME
 );
