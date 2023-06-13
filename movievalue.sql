@@ -1,6 +1,7 @@
-INSERT INTO movies VALUES (
+INSERT INTO movies VALUE(
     null,
-   'La La Land',
+    "mov-01",
+    'La La Land',
     '2016',
     'Musical Romance',
     '128',
@@ -14,7 +15,9 @@ INSERT INTO movies VALUES (
     NOW()
 );
 
-INSERT INTO movies VALUES (
+INSERT INTO movies VALUE (
+    null,
+    'mov-02',
     'The Truman Show',
     '1998',
     'Drama Comedy',
@@ -30,7 +33,9 @@ INSERT INTO movies VALUES (
 
 );
 
-INSERT INTO movies VALUES (
+INSERT INTO movies VALUE (
+    null,
+    'mov-03',
     'Scott Pilgrim vs. the World',
     '2010',
     'Comedy Romance',
@@ -46,23 +51,10 @@ INSERT INTO movies VALUES (
 
 );
 
-INSERT INTO movies VALUES (
-    'Scott Pilgrim vs. the World',
-    '2010',
-    'Comedy Romance',
-    '112',
-    'Edgar Wright',
-    'Michael Cera',
-    '477000000',
-    'https://upload.wikimedia.org/wikipedia/en/1/14/Scott_Pilgrim_vs._the_World_teaser.jpg',
-    'PG-13',
-    'Marc Platt',
-    '60000000',
-    NOW()
 
-);
-
-INSERT INTO movies Values (
+INSERT INTO movies VALUE (
+    null,
+    'mov-04',
     'Over the Moon',
     '2020',
     'Animation Family',
@@ -73,7 +65,7 @@ INSERT INTO movies Values (
     'https://upload.wikimedia.org/wikipedia/en/d/dc/Over_the_Moon_%282020%29.png',
     'G',
     'Pelinin Chou',
-    '',
+    '0',
     NOW()
 
 );
